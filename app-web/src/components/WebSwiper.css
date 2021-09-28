@@ -1,0 +1,81 @@
+.WSSwiper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 600px;
+}
+
+.WSCard {
+    flex-grow: 2;
+}
+
+.WSButtons {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.cardCounter {
+    color: gray;
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.buttonFrame {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    width: 60px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.seeVotes {
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    font-size: 17px;
+    background-color: rgb(239, 152, 56);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.seeVotes:hover {
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+}
+
+.voteButton {
+    height: 50% !important;
+    max-width: 500px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}

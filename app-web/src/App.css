@@ -1,0 +1,92 @@
+.App {
+    position: absolute;
+    width: 100%
+}
+
+.gray {
+    color: rgb(135, 135, 135);
+}
+
+.nameField {
+    /* padding: 10px 70px 10px 70px; */
+    width: 300px;
+    height: 40px;
+    border-color: rgb(240, 142, 43);
+    border-radius: 10px;
+    background: none;
+    padding-left: 10px;
+    font-size: 24px;
+    justify-items: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.goButton {
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    font-size: 17px;
+    background-color: rgb(239, 152, 56);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.goButton:hover {
+    cursor: pointer;
+}
+
+.identificationTypeView {
+    width: 100%;
+}
+
+.identificationType {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.identificationTypeSelected {
+    color: black;
+    border-bottom: 3px solid rgb(239, 138, 37);
+    padding-bottom: 2px;
+    /* text-decoration: underline; */
+    /* text-decoration-color:rgb(239, 138, 37); */
+}
+
+
+/* styles of swiper */
+
+.swiperContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+.swipHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.swipName {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 27px;
+}
+
+.swipMessage {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}

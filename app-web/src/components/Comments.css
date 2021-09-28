@@ -1,0 +1,133 @@
+.comments-container {
+    width: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    z-index: 1;
+    height: 100vh;
+    padding: 0 10px;
+    border-left: #d3d3d3 1px solid;
+    border-right: #d3d3d3 1px solid;
+}
+
+.com-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.com-arrow-back {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+.com-arrow-back:hover {
+    background-color: #e7e7e7;
+}
+
+.com-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.com-card-image-container {
+    width: 100px;
+    height: 100px;
+}
+
+.com-card-image {
+    width: 100px;
+    height: 100px;
+}
+
+.com-card-desc-container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.com-card-name {
+    font-size: 20px;
+    color: #f89520;
+    font-weight: bold;
+    margin: 0;
+}
+
+.com-card-desc {
+    font-size: 15px;
+    margin: 0;
+}
+
+.com-comments {
+    width: 100%;
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.com-comment-user-img, .com-add-comment-img {
+    width: 15px;
+    height: 15px;
+    padding-top: 6px;
+}
+
+.com-th-comment-user-name, .com-th-comment {
+    text-align: left;
+}
+
+.com-th-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.com-comment-user-name, .com-add-comment-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.com-comment {
+    color: #98999d;
+    margin: 0;
+}
+.com-add-comment-cont {
+    position: absolute;
+    width: 460px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
+    bottom: 10px;
+    border-top: 1px #d3d3d3 solid;
+    text-align: left;
+    z-index: 2;
+}
+
+.com-add-comment-img {
+    width: 30px;
+    height: 30px;
+}
+
+.com-add-comment-input {
+    width: 80%;
+    padding: 8px;
+    border: #3f3f3f 1px solid;
+    border-radius: 3px;
+}
+
+.sent-comment:hover {
+    cursor: pointer;
+}
